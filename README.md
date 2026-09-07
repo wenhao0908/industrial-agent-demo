@@ -63,7 +63,7 @@ flowchart LR
   O --> H[HITL approval draft]
 ```
 
-See [docs/architecture.md](docs/architecture.md) and [docs/interview-guide.md](docs/interview-guide.md) for productionization boundaries and interview talking points.
+See [docs/architecture.md](docs/architecture.md) and [docs/interview-guide.md](docs/interview-guide.md) for productionization boundaries and interview talking points.\n\nDownload the ready-to-share [interview ZIP package](dist/industrial-agent-demo.zip) (15 KB; safely below the 25 MB limit).
 
 ## Repository structure
 
@@ -111,3 +111,4 @@ The script writes a clean ZIP to `..\outputs\industrial-agent-demo.zip`, exclude
 - 内存状态 → Redis / MySQL / Neo4j；
 - 模拟规则路由 → LLM 结构化输出 + schema 校验；
 - 浏览器模拟确认 → 独立事务服务、RBAC、幂等、审计和 OpenTelemetry。
+
