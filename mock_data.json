@@ -1,0 +1,9 @@
+﻿{
+  "incident": {
+    "device_sn": "DVT-24017",
+    "work_order": "WO-260901",
+    "material_lot": "LOT-AL-8842",
+    "alarm_code": "ALM-217"
+  },
+  "graph": ["设备 DVT-24017", "关联物料批次 LOT-AL-8842", "供应商 华东精密密封件（模拟）", "工单 WO-260901", "真空调试", "报警 ALM-217", "根因候选：密封 / 校准"]
+}
